@@ -130,7 +130,8 @@ class DetailsMethods {
   // for getting, validating and place youTube url
   static void playYoutubeVideo(String youtubeVideoID) {
     FlutterYoutube.playYoutubeVideoByUrl(
-      apiKey: 'AIzaSyAVojmfPd6C49AhXet_MEVGXrHzmm8xT-I',
+      // ADD YOU API FROM GOOGLE SERVICES HERE BELOW
+      apiKey: 'YOUR GOOGLE API KEY HERE',
       videoUrl: 'https://www.youtube.com/watch?v=' + youtubeVideoID,
     );
   }
